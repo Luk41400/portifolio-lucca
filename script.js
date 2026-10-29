@@ -2,6 +2,14 @@ document.documentElement.classList.add('js');
 
 const menuButton = document.querySelector('.menu-toggle');
 const mobileMenu = document.querySelector('.mobile-menu');
+const siteHeader = document.querySelector('.site-header');
+
+function updateHeaderSize() {
+  siteHeader.classList.toggle('is-scrolled', window.scrollY > 80);
+}
+
+window.addEventListener('scroll', updateHeaderSize, { passive: true });
+updateHeaderSize();
 
 function closeMenu() {
   menuButton.setAttribute('aria-expanded', 'false');
