@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#08090c" />
+    <meta name="description" content="Portfólio de Lucca Rodrigues Frazili, estudante do curso Técnico em Inteligência Artificial na FECAP." />
+    <meta property="og:title" content="Lucca Rodrigues Frazili — Portfólio" />
+    <meta property="og:description" content="Curiosidade, tecnologia e o começo de uma jornada em Inteligência Artificial." />
+    <title>Lucca Rodrigues Frazili — Portfólio</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <script src="chip-model.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <header class="site-header" id="topo">
+      <div class="nav-island">
+        <a class="brand" href="#inicio" aria-label="Lucca Frazili, início">LF<span>✦</span></a>
+        <nav class="desktop-nav" aria-label="Navegação principal">
+          <a href="#inicio">Início</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#jornada">Jornada</a>
+          <a href="#projetos">Projetos</a>
+        </nav>
+      </div>
+      <a class="header-cta" href="https://www.instagram.com/eu_luccaxyz/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram de Lucca em nova aba">
+        Instagram <span aria-hidden="true">↗</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Navegação móvel" hidden>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#jornada">Jornada</a>
+        <a href="#projetos">Projetos</a>
+        <a href="https://www.instagram.com/eu_luccaxyz/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-atmosphere" aria-hidden="true">
+          <div class="hero-halo halo-one"></div>
+          <div class="hero-halo halo-two"></div>
+          <div class="hero-halo halo-three"></div>
+          <img class="chip-fallback" src="assets/chip-fallback.svg" alt="" />
+          <canvas class="ai-model-canvas" id="ai-model-canvas"></canvas>
+          <div class="orbit-label orbit-label-one">CHIP DE IA <i></i> MODELO 3D</div>
+          <div class="orbit-label orbit-label-two">FRENTE / VERSO / 360°</div>
+        </div>
+
+        <div class="hero-content shell">
+          <div class="hero-topline reveal">
+            <span class="eyebrow"><span class="signal-dot"></span> PORTFÓLIO PESSOAL / 2026</span>
+            <span class="coordinates">TÉCNICO EM IA &nbsp;·&nbsp; FECAP</span>
+          </div>
+
+          <div class="hero-title-wrap reveal">
+            <span class="hero-pretitle">Olá, eu sou o Lucca.</span>
+            <h1 id="hero-title">O futuro começa<br /><span>com curiosidade.</span></h1>
+            <p class="hero-description">Sou Lucca Rodrigues Frazili. Tenho 15 anos e estou no 1º ano do curso Técnico em Inteligência Artificial na FECAP.</p>
+            <a class="story-action" href="#sobre">Conheça minha jornada <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="hero-bottom reveal">
+            <span>01 / 04 &nbsp; INTRODUÇÃO</span>
+            <span class="scroll-cue">DESLIZE PARA EXPLORAR <span aria-hidden="true">↓</span></span>
+          </div>
+        </div>
+        <div class="chip-gesture-zone" id="chip-gesture-zone" role="group" tabindex="0" aria-label="Chip 3D interativo. Arraste para girar em todas as direções ou use as setas do teclado.">
+          <span class="chip-gesture-hint" aria-hidden="true">ARRASTE PARA GIRAR 360°</span>
+        </div>
+      </section>
+
+      <section class="intro-section section-pad" id="sobre" aria-labelledby="sobre-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <span class="section-index">01 / SOBRE</span>
+            <span class="section-rule"></span>
+            <span class="section-side-note">QUEM SOU</span>
+          </div>
+          <div class="intro-grid">
+            <h2 id="sobre-title" class="statement reveal">Aprender.<br />Testar.<br /><em>Evoluir.</em></h2>
+            <div class="intro-copy reveal">
+              <span class="mini-label">UMA JORNADA EM CONSTRUÇÃO</span>
+              <p>Estou começando minha trajetória em tecnologia com uma pergunta sempre presente: <strong>o que é possível criar a partir de uma boa ideia?</strong></p>
+              <p>O curso Técnico em Inteligência Artificial na FECAP é o ponto de partida dessa exploração. Este portfólio acompanha o que aprendo, experimento e construo ao longo do caminho.</p>
+              <div class="intro-meta">
+                <div><span>IDADE</span><strong>15 anos</strong></div>
+                <div><span>FORMAÇÃO</span><strong>Técnico em IA · FECAP</strong></div>
+                <div><span>ETAPA</span><strong>1º ano</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="journey-section section-pad" id="jornada" aria-labelledby="jornada-title">
+        <div class="shell">
+          <div class="section-heading section-heading-light reveal">
+            <span class="section-index">02 / JORNADA</span>
+            <span class="section-rule"></span>
+            <span class="section-side-note">PONTO DE PARTIDA</span>
+          </div>
+          <div class="journey-head reveal">
+            <span class="mini-label">AGORA É SÓ O COMEÇO</span>
+            <h2 id="jornada-title">Uma trajetória<br /><em>em movimento.</em></h2>
+          </div>
+          <div class="journey-grid">
+            <figure class="journey-visual reveal">
+              <img src="assets/lucca-retrato.png" alt="Retrato de Lucca Rodrigues Frazili em traje social" loading="lazy" decoding="async" />
+              <figcaption class="journey-visual-label">
+                <span>LUCCA RODRIGUES FRAZILI / FECAP</span>
+                <span>Gerada por IA</span>
+              </figcaption>
+            </figure>
+            <div class="journey-list reveal">
+              <div class="journey-item">
+                <span class="item-no">01</span>
+                <div><h3>Formação técnica</h3><p>1º ano do curso Técnico em Inteligência Artificial na FECAP.</p></div>
+                <span class="item-mark" aria-hidden="true">↗</span>
+              </div>
+              <div class="journey-item">
+                <span class="item-no">02</span>
+                <div><h3>Aprendizado constante</h3><p>Um espaço para registrar novas ideias, descobertas e práticas.</p></div>
+                <span class="item-mark" aria-hidden="true">↗</span>
+              </div>
+              <div class="journey-item">
+                <span class="item-no">03</span>
+                <div><h3>Próximos passos</h3><p>Transformar o que aprendo em projetos para compartilhar aqui.</p></div>
+                <span class="item-mark" aria-hidden="true">↗</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section section-pad" id="projetos" aria-labelledby="projetos-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <span class="section-index">03 / PROJETOS</span>
+            <span class="section-rule"></span>
+            <span class="section-side-note">PORTFÓLIO EM EVOLUÇÃO</span>
+          </div>
+          <div class="projects-intro reveal">
+            <div><span class="mini-label">O QUE VEM POR AÍ</span><h2 id="projetos-title">Ideias em<br /><em>desenvolvimento.</em></h2></div>
+            <p>Este espaço vai crescer junto comigo. Conforme meus projetos ganharem forma, eles aparecerão aqui com o processo e o resultado de cada experiência.</p>
+          </div>
+          <div class="project-feature reveal">
+            <div class="project-art" aria-hidden="true">
+              <div class="art-grid"></div>
+              <div class="art-glow"></div>
+              <div class="art-sphere"></div>
+              <span class="art-code">L / F &nbsp; 001</span>
+              <span class="art-caption">WORK IN PROGRESS</span>
+            </div>
+            <div class="project-details">
+              <span class="project-tag"><span class="signal-dot"></span> EM CONSTRUÇÃO</span>
+              <div>
+                <span class="mini-label">PRIMEIROS EXPERIMENTOS</span>
+                <h3>O próximo projeto<br />começa aqui.</h3>
+                <p>Novos estudos e criações serão apresentados neste portfólio à medida que minha jornada em IA avançar.</p>
+              </div>
+              <span class="project-foot">01 / EM BREVE <span aria-hidden="true">↗</span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section-pad" id="contato" aria-labelledby="contato-title">
+        <div class="contact-glow" aria-hidden="true"></div>
+        <div class="shell contact-inner reveal">
+          <span class="section-index">04 / CONEXÃO</span>
+          <h2 id="contato-title">Vamos trocar<br /><em>ideias?</em></h2>
+          <p>Acompanhe minha jornada e entre em contato pelo Instagram ou e-mail.</p>
+          <div class="contact-links">
+            <a class="contact-link" href="https://www.instagram.com/eu_luccaxyz/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram de Lucca em nova aba">@eu_luccaxyz <span aria-hidden="true">↗</span></a>
+            <a class="contact-link" href="mailto:frazililucca@gmail.com">frazililucca@gmail.com <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <a class="footer-brand" href="#inicio" aria-label="Voltar ao início">LF<span>✦</span></a>
+        <p>Lucca Rodrigues Frazili<br /><span>Estudante de Inteligência Artificial · FECAP</span></p>
+        <a href="#topo">VOLTAR AO TOPO ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
